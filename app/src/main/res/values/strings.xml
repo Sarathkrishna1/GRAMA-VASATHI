@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GramaVasathi</string>
+    <string name="welcome_message">Welcome to GramaVasathi</string>
+    <string name="view_farmstays">View Farmstays</string>
+    <string name="host_readiness_training">Host Readiness Training</string>
+    <string name="check_readiness_score">Check your readiness score:</string>
+    <string name="clean_bed_sheets">Clean bed sheets</string>
+    <string name="drinking_water">Drinking water</string>
+    <string name="western_toilet">Western toilet</string>
+    <string name="soap_and_towels">Soap and towels</string>
+    <string name="healthy_food">Healthy food</string>
+    <string name="calculate_score">CALCULATE SCORE</string>
+    <string name="initial_score">Score: 0%</string>
+    <string name="host_readiness_score_format">Host Readiness Score: %1$d%%</string>
+    <string name="book_your_stay">Book Your Stay</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm_booking">CONFIRM BOOKING</string>
+    <string name="please_fill_all_details">Please fill all details</string>
+</resources>

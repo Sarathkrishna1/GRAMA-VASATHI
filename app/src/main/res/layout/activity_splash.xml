@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1B5E20"
+    android:padding="16dp">
+
+    <!-- 1. EXTRA LARGE LOGO CONTAINER -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="340dp"
+        android:layout_height="240dp"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="#FFFFFF"
+        android:layout_marginBottom="24dp">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:padding="5dp"
+            android:src="@drawable/app_logo"
+            android:contentDescription="App Logo" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- 2. APP NAME -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grama-Vasathi"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:letterSpacing="0.03" />
+
+    <!-- 3. TAGLINE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rural Hospitality &amp; Farm Stays"
+        android:textColor="#A5D6A7"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginTop="4dp" />
+
+    <!-- 4. LOADING INDICATOR -->
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:indeterminateTint="#FFFFFF" />
+
+    <!-- 5. BOTTOM BRANDING -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BRIDGING URBAN &amp; RURAL INDIA"
+        android:textColor="#81C784"
+        android:textSize="12sp"
+        android:layout_marginTop="60dp"
+        android:letterSpacing="0.15"/>
+
+</LinearLayout>

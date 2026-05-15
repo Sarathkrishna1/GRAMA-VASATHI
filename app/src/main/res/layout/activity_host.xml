@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brand_creme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Host Training"
+            android:textSize="28sp"
+            android:textColor="@color/brand_forest"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ensure your home is guest-ready."
+            android:textColor="@color/text_body"
+            android:layout_marginTop="8dp" />
+
+        <!-- White Card containing all Checkboxes -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:background="@color/white">
+
+                <CheckBox android:id="@+id/checkSheets" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Clean Bed Sheets &amp; Pillows" android:padding="12dp" />
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gray_light"/>
+
+                <CheckBox android:id="@+id/checkWater" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Safe Drinking Water" android:padding="12dp" />
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gray_light"/>
+
+                <CheckBox android:id="@+id/checkToilet" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Western Style Toilet" android:padding="12dp" />
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gray_light"/>
+
+                <CheckBox android:id="@+id/checkSoap" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Hand Soap &amp; Fresh Towels" android:padding="12dp" />
+                <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/gray_light"/>
+
+                <CheckBox android:id="@+id/checkFood" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Traditional Food Preparation" android:padding="12dp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnCalculateScore"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="32dp"
+            android:text="SAVE &amp; CONTINUE"
+            android:background="@drawable/button_pill"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/txtScoreResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Score: 0%"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/brand_sage" />
+
+    </LinearLayout>
+</ScrollView>

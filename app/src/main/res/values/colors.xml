@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_forest">#1B5E20</color>   <!-- Dark Green -->
+    <color name="brand_sage">#2E7D32</color>     <!-- Mid Green -->
+    <color name="brand_creme">#FDFCFB</color>    <!-- Soft White Background -->
+    <color name="brand_gold">#FBC02D</color>     <!-- Accent for ratings/badges -->
+    <color name="text_title">#1A1A1A</color>     <!-- Dark Charcoal -->
+    <color name="text_body">#555555</color>      <!-- Professional Gray -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#EEEEEE</color>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/farm1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grama-Vasathi"
+            android:textSize="38sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btnViewListings"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="40dp"
+            android:text="Explore Farm-Stays"
+            android:background="@drawable/button_pill"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnBecomeHost"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:text="I am a Host"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white" />
+
+        <!-- NEW BUTTON FOR GUESTS -->
+        <Button
+            android:id="@+id/btnGuestBookings"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Check My Booking Status"
+            android:background="@android:color/transparent"
+            android:textColor="#A5D6A7"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp" />
+        <Button
+            android:id="@+id/btnCulturalGuide"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Cultural Guide for Guests"
+            android:background="@android:color/transparent"
+            android:textColor="#A5D6A7"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</RelativeLayout>

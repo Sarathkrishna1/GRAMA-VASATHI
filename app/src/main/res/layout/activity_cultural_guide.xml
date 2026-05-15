@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFCFB"> <!-- Warm White Background -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- HEADER SECTION -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🗺 City Guest Handbook"
+            android:textColor="#BC8E5E"
+            android:textSize="12sp"
+            android:layout_gravity="center"
+            android:textAllCaps="true"
+            android:letterSpacing="0.1"
+            android:background="#FFF2E2"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cultural Guide"
+            android:textSize="36sp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="#1A1A1A"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Everything a city dweller needs to know before visiting a rural home-stay. Respect the culture, embrace the experience."
+            android:gravity="center"
+            android:textColor="#666666"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+            android:lineSpacingExtra="4dp" />
+
+        <View
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:background="#2E7D32"
+            android:layout_gravity="center"
+            android:layout_marginVertical="30dp"/>
+
+        <!-- 1. GREETINGS SECTION -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="#FFFFFF"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🙏 Greetings &amp; Etiquette"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="#1B5E20"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="• Greet elders with 'Namaste' or local equivalent.\n• Always remove shoes before entering a home.\n• Use your right hand for eating and giving/receiving items."
+                    android:textColor="#444444"
+                    android:lineSpacingExtra="6dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- 2. WHAT TO WEAR -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="👕 What to Wear"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="#1B5E20"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="• Wear modest, comfortable cotton clothes.\n• Avoid revealing outfits out of respect for local traditions.\n• Bring sturdy walking shoes or sandals for farm walks."
+                    android:textColor="#444444"
+                    android:lineSpacingExtra="6dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- 3. DO'S & DON'TS -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="✅ Do's &amp; Don'ts"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="#1B5E20"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="• DO: Ask permission before taking photos of people.\n• DO: Respect water usage; villages often face scarcity.\n• DON'T: Litter the farm or village paths.\n• DON'T: Feed farm animals without the host's supervision."
+                    android:textColor="#444444"
+                    android:lineSpacingExtra="6dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- 4. HEALTH & SAFETY -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="30dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🏥 Health &amp; Safety"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textStyle="bold"
+                    android:textColor="#1B5E20"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="• Use mosquito repellent, especially after sunset.\n• Drink only filtered or boiled water provided by the host.\n• Carry basic personal medicines as pharmacies may be far."
+                    android:textColor="#444444"
+                    android:lineSpacingExtra="6dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
